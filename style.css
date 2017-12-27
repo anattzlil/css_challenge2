@@ -99,14 +99,23 @@ hr {
 .stars {
     position: absolute;
     left: 50%;
-    transform: translate(-50%, 280%);
+    transform: translate(-50%, 300%);
     width: 100%;
 }
 
-.shape {
-    width: 7%;
+.fa-star {
+    font-size: 25px;
     margin-left: 2px;
     margin-right: 2px;
+    padding: 0;
+    color: #707896;
+    border-style: none;
+    background-color: transparent;
+}
+
+.fa-star:focus {
+    border: none;
+    outline: none;
 }
 
 #review {
